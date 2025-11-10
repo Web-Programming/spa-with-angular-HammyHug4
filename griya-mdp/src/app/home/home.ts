@@ -10,5 +10,5 @@ import { LokasiPerumahan } from '../lokasi-perumahan/lokasi-perumahan';
   styleUrl: './home.css',
 })
 export class Home {
-
+  numbers: number[] = [1,2,3,4,5]
 }
