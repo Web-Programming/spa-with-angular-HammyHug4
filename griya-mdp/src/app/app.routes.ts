@@ -4,6 +4,7 @@ import { Profile } from './profile/profile';
 import { Login } from './login/login';
 import { Register } from './register/register';
 import { Contact } from './contact/contact';
+import { Detail } from './detail/detail';
 
 export const routes: Routes = [
     {
@@ -31,4 +32,14 @@ export const routes: Routes = [
         component: Contact,
         //title: 'Home Page'
     },
+    {
+        path: "property/:id",       
+        component: Detail,
+        title: 'Detail Property - Griya MDP'
+    },
+    {
+        path: "**",                      
+        redirectTo: "",
+        pathMatch: 'full'
+    }
 ];
