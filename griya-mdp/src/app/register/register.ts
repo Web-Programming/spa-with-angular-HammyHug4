@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { FormGroup, ReactiveFormsModule, Validators, FormBuilder } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 
-@Component({
-  selector: 'app-register',
-  imports: [CommonModule, ReactiveFormsModule, RouterLink],
-  templateUrl: './register.html',
-  styleUrl: './register.css',
-})
+// @Component({
+//   selector: 'app-register',
+//   imports: [CommonModule, ReactiveFormsModule, RouterLink],
+//   templateUrl: './register.html',
+//   styleUrl: './register.css',
+// })
 
 export class Register {
   registerForm: FormGroup;
